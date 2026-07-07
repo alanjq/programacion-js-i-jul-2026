@@ -1,6 +1,6 @@
 # Programación con Javascript I (Julio 2026)
 
-
+[Sesión I: Variables, constantes y funciones](https://youtu.be/7ZXRLST9mw0)
 
 ## Información del curso
 
