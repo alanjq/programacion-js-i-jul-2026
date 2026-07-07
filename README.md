@@ -5,15 +5,21 @@
 ## Información del curso
 
 [Guía para aprendedores](./Guía%20para%20aprendedores.pdf)
+
 [Checklist Proyecto Final](./Checklist%20proyecto%20final.pdf)
+
 [Descripción Proyecto](./Descripción%20del%20proyecto.pdf)
+
 [Metodología](./Metodología.pdf)
 
 ## Avances de proyecto
 
 [Avance Semana 1](./Avances-proyecto/Avance%20de%20proyecto%201.pdf)
+
 [Avance Semana 2](./Avances-proyecto/Avance%20de%20proyecto%202.pdf)
+
 [Avance Semana 3](./Avances-proyecto/Avance%20de%20proyecto%203.pdf)
+
 [Avance Semana 4](./Avances-proyecto/Avance%20de%20proyecto%204.pdf)
 
 ## Temas
@@ -36,4 +42,5 @@
 
 
 ## Enlaces útiles
+
 [Documentación Mozila](https://developer.mozilla.org/es/docs/Web/API/console/log_static)
