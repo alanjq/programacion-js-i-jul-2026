@@ -2,6 +2,8 @@
 
 [Sesión I: Variables, constantes y funciones](https://youtu.be/7ZXRLST9mw0)
 
+[Sesión 2: Arreglos, funciones y DOM](https://youtu.be/Hpn2DZevcs0)
+
 ## Información del curso
 
 [Guía para aprendedores](./Guía%20para%20aprendedores.pdf)
