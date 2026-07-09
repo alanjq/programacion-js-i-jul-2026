@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sesión 2</h1>
+
+    <div>
+        <label>Mostrar</label>
+        <select onchange="mostrarCalendario()" id="selectorLista">
+            <option value="todo">Todos los días</option>
+            <option value="habiles">Solo días hábiles</option>
+            <option value="fines">Solo fines de semana</option>
+        </select>
+    </div>
+
+    <section class="tarjeta todo">
+        <h2>Días de la semana</h2>
+        <ul class="lista-dias" id="lista">
+            <li name="domingo" class="dia-semana doMingo">DoMingG0</li>
+            <li name="lunes" class="dia-semana lunes">Lunes</li>
+            <li name="martes" class="dia-semana martes">Martes</li>
+            <li name="miércoles" class="dia-semana miércoles">Miércoles</li>
+            <li name="jueves" class="dia-semana jueves">Jueves</li>
+            <li name="viernes" class="dia-semana viernes">Viernes</li>
+            <li class="dia-semana sábado">Sabad</li>
+        </ul>
+    </section>
+
+    <section class="tarjeta fines-semana">
+        <h2>Fines de semana</h2>
+        <ul class="lista-dias" id="lista-fines-semana">
+            <li name="domingo" class="dia-semana domingo">Domingo</li>
+            <li name="sábado" class="dia-semana sábado">Sábado</li>
+        </ul>
+    </section>
+
+    <section class="tarjeta dias-habiles">
+        <h2>Días hábiles</h2>
+        <ul class="lista-dias" id="lista-dias-habiles">
+            <li name="lunes" class="dia-semana lunes">Lunes</li>
+            <li name="martes" class="dia-semana martes">Martes</li>
+            <li name="miércoles" class="dia-semana miércoles">Miércoles</li>
+            <li name="jueves" class="dia-semana jueves">Jueves</li>
+            <li name="viernes" class="dia-semana viernes">Viernes</li>
+        </ul>
+    </section>
+
+    <div>
+        <button type="button" onclick="corregirListas()">Corregir Listas</button>
+    </div>
+    <div>
+        <button type="button" onclick="limpiarCorregidos()">Limpiar Corregidos</button>
+    </div>
+
+    <!-- <script src="variables.js"></script> -->
+    <!-- <script src="funciones.js"></script> -->
+    <script src="manipulacion.js"></script>
+    <script src="ocultarMostrar.js"></script>
+</body>
+</html>

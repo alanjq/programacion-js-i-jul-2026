@@ -1,0 +1,17 @@
+.dia-semana {
+    color: red;
+}
+.lunes, .martes, .miercoles, .jueves, .viernes, .sabado, .domingo {
+    color: blue;
+}
+    
+.corregido {
+    background-color: #85ff00;
+    color: #030325;
+}
+
+.tarjeta {
+    border: 4px solid #7ad7ff;
+    padding: 10px;
+    margin: 10px;
+}
