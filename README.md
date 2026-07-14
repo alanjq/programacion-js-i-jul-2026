@@ -4,6 +4,8 @@
 
 [Sesión 2: Arreglos, funciones y DOM](https://youtu.be/Hpn2DZevcs0)
 
+[Sesión 3: Control de flujo, formularios](https://youtu.be/BpQ4irtYX1c)
+
 ## Información del curso
 
 [Guía para aprendedores](./Guía%20para%20aprendedores.pdf)
