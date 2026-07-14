@@ -1,0 +1,11 @@
+#resultado {
+    font-size: 2em;
+    margin: 1em;
+    padding: .5em;
+    display: inline-block;
+    border: 1px solid gray;
+}
+input[type="number"]{
+    padding: .2em;
+}
+

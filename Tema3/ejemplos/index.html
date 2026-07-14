@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios y funciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <section id="calculadora">
+        <form>
+            <input type="number" class="numero1"/>
+            <input type="number" class="numero2" placeholder="Segundo número"/>
+            <br/>
+            <label id="resultado">0.00</label>
+            <br>
+            <select>
+                <option>Sumar</option>
+                <option>Restar</option>
+                <option>Multiplicar</option>
+                <option>Dividir</option>
+            </select>
+
+            <label>
+                <input type="radio" name="operacion" value="suma" onchange="validarCalculo()" />
+                Sumar
+            </label>
+
+            <label>
+                <input type="radio" name="operacion" value="resta"  onchange="validarCalculo()" />
+                Restar
+            </label>
+
+            <label>
+                <input type="radio" name="operacion" value="multiplicacion"  onchange="validarCalculo()" />
+                Multiplicar
+            </label>
+
+            <label>
+                <input type="radio" name="operacion" value="division"  onchange="validarCalculo()" />
+                Dividir
+            </label>
+
+            <br/>
+            <button type="reset">
+                Borrar campos
+            </button>
+            <button type="button" id="btnCalcular" disabled onclick="calcular()">Resultado</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
