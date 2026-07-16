@@ -6,6 +6,8 @@
 
 [Sesión 3: Control de flujo, formularios](https://youtu.be/BpQ4irtYX1c)
 
+[Sesión 4: Funciones, Objetos y Arreglos](https://youtu.be/h56fs-YjZVs)
+
 ## Información del curso
 
 [Guía para aprendedores](./Guía%20para%20aprendedores.pdf)
