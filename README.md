@@ -8,6 +8,8 @@
 
 [Sesión 4: Funciones, Objetos y Arreglos](https://youtu.be/h56fs-YjZVs)
 
+[Sesión 5: Programación Orientada a Objetos](https://youtu.be/cqHhkeCdTi8)
+
 ## Información del curso
 
 [Guía para aprendedores](./Guía%20para%20aprendedores.pdf)
