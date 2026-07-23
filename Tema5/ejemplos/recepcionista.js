@@ -2,7 +2,7 @@ const recepcionista = {
     nombre: '',
     horario: '',
     activo: true,
-
+ 
     cobrar(){
         console.log('Realizar cobro')
     },

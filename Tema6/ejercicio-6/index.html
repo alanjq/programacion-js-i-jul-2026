@@ -20,7 +20,7 @@
                         <h1>Contador de Calorias</h1>
                     </div>
                     <div class="card-body">
-                        <table class="table table-hover">
+                        <table class="table table-hover" id="tabla-calorias">
                             <thead>
                                 <tr>
                                     <th scope="col">Descripción</th>
@@ -30,8 +30,7 @@
                                     <th></th>
                                 </tr>
                             </thead>
-                            <tbody>
-                            </tbody>
+                            <tbody></tbody>
                             <thead class="thead-light">
                                 <tr>
                                     <th>Totales</th>
@@ -44,21 +43,21 @@
                         </table>
                     </div>
                     <div class="card-footer">
-                        <div class="row mb-2">
+                        <div class="row mb-2" id="formulario">
                             <div class="col">
-                                <input type="text" class="form-control mb-2 mr-sm-2" 
+                                <input name="descripcion" type="text" class="form-control mb-2 mr-sm-2" 
                                     placeholder="Descripcion">
                             </div>
                             <div class="col">
-                                <input type="number" min="0" class="form-control mb-2 mr-sm-2" 
+                                <input name="calorias" type="number" min="0" class="form-control mb-2 mr-sm-2" 
                                     placeholder="Calorias">
                             </div>
                             <div class="col">
-                                <input type="number" min="0" class="form-control mb-2 mr-sm-2" 
+                                <input name="carbohidratos" type="number" min="0" class="form-control mb-2 mr-sm-2" 
                                     placeholder="Carbohidratos">
                             </div>
                             <div class="col">
-                                <input type="number" min="0" class="form-control mb-2 mr-sm-2" 
+                                <input name="proteina" type="number" min="0" class="form-control mb-2 mr-sm-2" 
                                     placeholder="Proteina">
                             </div>
                             <div class="col">
@@ -75,6 +74,7 @@
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/objetoCalorias.js"></script>
 </body>
 
 </html>

@@ -73,7 +73,7 @@ class Recepcionista extends Empleado {
     }
 }
 
-let v = new Recepcionista()
+let r = new Recepcionista()
 
 class Animal {
 
